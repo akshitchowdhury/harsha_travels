@@ -13,6 +13,8 @@ import About from './component/About/About';
 import Nav from './component/Nav/Nav';
 import Gallery from './component/Gallery/Gallery';
 import Footer from './component/Footer/Footer';
+import Contact from './component/Contact/Contact';
+
 function App() {
   
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/contact" element={<Contact/>} />
+
         </Routes>
       <Footer/>
       </Router>
