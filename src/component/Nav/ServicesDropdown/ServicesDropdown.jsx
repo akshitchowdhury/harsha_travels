@@ -33,11 +33,10 @@ export default function ServicesDropdown() {
     }
   }, [isMobile])
 
-  const toggleDropdown = () => {
-    if (isMobile) {
-      setIsOpen(!isOpen)
-    }
-  }
+  // const toggleDropdown = () => {
+   
+  //   }
+  // }
 
   return (
     <div 
@@ -47,11 +46,11 @@ export default function ServicesDropdown() {
       onMouseLeave={() => !isMobile && setIsOpen(false)}
     >
       <p
-        className="text-zinc-950 md:uppercase mx-2 font-medium relative hover:text-amber-400 group"
-        onClick={toggleDropdown}
+        className="text-white md:uppercase mx-2 font-medium relative hover:text-indigo-800 group"
+        // onClick={toggleDropdown}
       >
         Services
-        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] md:bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+        <span className="absolute left-0 bottom-[-2px] w-full h-[2px] md:bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
       </p>
 
       {/* Dropdown Menu */}
@@ -62,18 +61,18 @@ export default function ServicesDropdown() {
           ${isOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0 md:opacity-100'}
         `}>
           <li>
-            <Link to="/excavation" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-              Excavation Services
+            <Link to="/excavation" className="block px-4 py-2 text-gray-700 hover:bg-gray-200 hover:text-white transition-colors duration-200">
+              Corporate Travels
             </Link>
           </li>
           <li>
-            <Link to="/demolition" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-              Demolition Works & Dismantling Services
+            <Link to="/demolition" className="block px-4 py-2 text-gray-700 hover:bg-gray-200 hover:text-white transition-colors duration-200">
+              Corporate Tours
             </Link>
           </li>
           <li>
-            <Link to="/siteprep" className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
-              Site Preparations
+            <Link to="/siteprep" className="block px-4 py-2 text-gray-700 hover:bg-gray-200 hover:text-white transition-colors duration-200">
+              Airport Pickup/Drop
             </Link>
           </li>
         </ul>

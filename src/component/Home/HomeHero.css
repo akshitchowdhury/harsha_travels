@@ -1,0 +1,28 @@
+/* Base styles for desktop */
+.heroBg {
+    background-image: url("../../assets/heroBg2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Tablet view (768px and below) */
+@media (max-width: 768px) {
+    .heroBg {
+        background-size: cover;
+        background-attachment: fixed; /* Disable fixed background for better performance on tablets */
+        height: 75vh; /* Adjust height for better fit */
+        background-position: center;
+    }
+}
+
+/* Mobile view (480px and below) */
+@media (max-width: 480px) {
+    .heroBg {
+        background-size: cover;
+        background-attachment: fixed; /* Disable fixed to avoid issues on mobile */
+        height: 60vh; /* Further adjust height */
+        background-position: center;
+    }
+}

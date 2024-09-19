@@ -11,16 +11,16 @@ export default function Nav() {
   };
 
   return (
-    <nav className="bg-gray-50 p-4 lg:px-20">
+    <nav className="bg-black p-4 lg:px-20">
       <div className="container mx-auto md:h-20 lg:h-20 flex justify-between items-center">
         <div className="font-bold flex flex-row items-center">
           <img src={logo} className='w-20 h-24 md:w-20 md:h-20 py-2' alt="Logo" />
         </div>
-        <div className="hidden md:flex space-x-8 lg:space-x-24">
-          <NavLink to="/">HOME</NavLink>
+        <div className="hidden  md:flex space-x-8 lg:space-x-24">
+          <NavLink  to="/">HOME</NavLink>
           <NavLink to="/about">ABOUT</NavLink>
           {/* <AboutDropdown /> */}
-          <NavLink to="/project">PROJECT</NavLink>
+          <NavLink to="/gallery">GALLERY</NavLink>
           <NavLink to="/client">CLIENTELE</NavLink>
           <ServicesDropdown />
           <NavLink to="/contact">CONTACT US</NavLink>
@@ -53,10 +53,10 @@ function NavLink({ to, children }) {
   return (
     <Link 
       to={to} 
-      className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+      className="text-white font-medium relative hover:text-indigo-800 group"
     >
       {children}
-      <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+      <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
     </Link>
   );
 }
