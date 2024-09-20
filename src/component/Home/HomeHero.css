@@ -2,7 +2,7 @@
 .heroBg {
     background-image: url("../../assets/heroBg2.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     background-attachment: fixed;
     background-position: center;
 }

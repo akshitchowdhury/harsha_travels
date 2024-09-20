@@ -27,13 +27,13 @@ const AboutBody = () => {
             
             {/* Content Section */}
             <div className="w-full md:w-1/2 md:pl-6">
-  <p className="text-justify text-gray-50 leading-relaxed mb-4">
+  <p className="text-justify text-gray-50 leading-loose mb-4">
     Harsha Travels is a premier corporate cab service provider based in Bangalore, delivering reliable and professional transportation solutions across India. With over two decades of expertise, we specialize in offering safe, efficient, and seamless travel experiences tailored to meet the unique needs of businesses and their employees.
   </p>
-  <p className="text-justify text-gray-50 leading-relaxed mb-4">
+  <p className="text-justify text-gray-50 leading-loose mb-4">
     Our dedicated team of experienced drivers and well-maintained fleet ensure punctuality, comfort, and safety, making us the preferred choice for corporate clients. We have successfully partnered with leading companies across various sectors, providing customized transportation solutions, including daily employee commutes, airport transfers, and event transportation.
   </p>
-  <p className="text-justify text-gray-50 leading-relaxed mb-6">
+  <p className="text-justify text-gray-50 leading-loose mb-6">
     Established in 1994, Harsha Travels has built a reputation for excellence in corporate travel services, consistently delivering high-quality service with a focus on client satisfaction and strong business ethics.
   </p>
 </div>

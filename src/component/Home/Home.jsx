@@ -1,18 +1,24 @@
 import React from 'react'
 
-import WhyChooseUs from './WhyChooseUs'
 import HomeHero from './HomeHero'
+import HomeAbout from './HomeAbout'
+import HomeOneClick from './HomeOnClick'
+import HomeServices from './HomeServices'
+import CountRise from './CountRise/CountRise'
+import Client from './Client/Client'
 
 const Home = () => {
   return (
     <>
-    <div className='flex flex-col gap-[200px]'>
+    <div className=' '>
     <div className='h-auto'
-    >
-   <HomeHero/>
-    </div>
+    ><HomeHero/></div>
+    <HomeAbout/>
+    <HomeOneClick/>
+    <CountRise/>
+    <HomeServices/>
+    <Client/>
 
-    <WhyChooseUs/>
     </div>
     </>
   )
