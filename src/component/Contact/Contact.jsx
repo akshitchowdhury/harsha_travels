@@ -20,7 +20,7 @@ const Contact = () => {
     <div className=''>
     
       <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.651519988216!2d77.6640818!3d12.993401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1137e2350dff%3A0x5572544ba88cb88!2sChethan%20Theatre!5e0!3m2!1sen!2sin!4v1721997412375!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.0143385766023!2d77.54228917411925!3d12.90679941629763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fc5c019aa67%3A0x37dc2c18972dd299!2sKR%20Hospital%20Uttarahalli!5e0!3m2!1sen!2sin!4v1726808940144!5m2!1sen!2sin"
           width="1600"
         height="450"
         style={{ border: 0 }}

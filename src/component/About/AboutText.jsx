@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AboutText = () => {
   return (
     <div className="container absolute -my-[50%] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0
-     lg:absolute lg:right-96 lg:top-[190px]">
+     lg:absolute lg:right-96 lg:top-[290px]">
       <div className="text-left px-4 md:mx-[37%] lg:w-[600px]">
     
     

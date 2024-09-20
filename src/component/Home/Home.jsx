@@ -1,6 +1,7 @@
 import React from 'react'
-import HomeHero from './hOMEhERO.JSX'
+
 import WhyChooseUs from './WhyChooseUs'
+import HomeHero from './HomeHero'
 
 const Home = () => {
   return (
